@@ -6,15 +6,11 @@ export default class EmptyComponent extends Component {
     super(props);
   }
 
-  removeTemplateElements () {
+  componentDidMount () {
     let nodes = document.getElementsByTagName('template');
     for ( let i = 0 ; i < nodes.length ; i++ ) {
       nodes[i].parentNode.removeChild(nodes[i]);
     }
-  }
-
-  componentDidMount () {
-    this.removeTemplateElements();
   }
 
   render () {
