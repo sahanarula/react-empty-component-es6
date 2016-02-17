@@ -20,5 +20,8 @@
     "noscript"
   ],
   "author": "Sahil Narula <sahiln123@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "react": "^0.14.7"
+  }
 }
