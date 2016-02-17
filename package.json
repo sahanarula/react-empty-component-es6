@@ -1,0 +1,24 @@
+{
+  "name": "react-empty-component-es6",
+  "version": "1.0.0",
+  "description": "React js empty component that returns nothing. Not even <noscript>",
+  "main": "EmptyComponent.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/react-empty-component-es6"
+  },
+  "keywords": [
+    "react",
+    "es6",
+    "empty",
+    "component",
+    "null",
+    "false",
+    "noscript"
+  ],
+  "author": "Sahil Narula <sahiln123@gmail.com>",
+  "license": "ISC"
+}
